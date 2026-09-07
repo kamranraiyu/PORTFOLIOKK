@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kamran K — MCA Student, Software & Full-Stack Developer Portfolio">
+  <title>Kamran K — Software & Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-mark">K<span>.</span></div>
+    <div class="loader-line"><i></i></div>
+    <p>LOADING PORTFOLIO</p>
+  </div>
+
+  <div class="cursor-glow"></div>
+  <div class="noise"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a class="brand" href="#home"><span>K</span>amran<span class="dot">.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Journey</a>
+        <a href="#contact" class="nav-cta">Let's talk ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <p class="kicker">Hello, I'm</p>
+        <h1>KAMRAN <em>K.</em></h1>
+        <div class="role-line">
+          <span>I BUILD</span>
+          <strong id="rotatingText">WEB EXPERIENCES</strong><span class="caret">_</span>
+        </div>
+        <p class="hero-desc">
+          B.Sc. Computer Science graduate &amp; MCA student building practical digital products
+          across web development, databases, analytics and emerging technology.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-dark" href="#projects">Explore my work <span>↘</span></a>
+          <a class="btn btn-ghost" href="#contact">Let's connect <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <span>Currently pursuing MCA</span>
+          <span>Jamal Mohamed College · Tiruchirappalli</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay">
+        <div class="photo-stage" id="photoStage">
+          <div class="photo-aura"></div>
+          <div class="photo-frame">
+            <img id="heroPhoto" src="assets/kamran-1.jpeg" alt="Kamran K professional portrait">
+          </div>
+          <div class="photo-sticker sticker-one">MCA<br>STUDENT</div>
+          <div class="photo-sticker sticker-two">10+<br>PROJECTS</div>
+          <div class="photo-index"><span id="photoIndex">01</span> / 05</div>
+        </div>
+        <div class="photo-controls">
+          <button id="prevPhoto" aria-label="Previous photo">←</button>
+          <button id="nextPhoto" aria-label="Next photo">→</button>
+          <span>PORTRAIT SERIES</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker">
+      <div class="ticker-track">
+        <span>SOFTWARE DEVELOPMENT</span><b>✦</b>
+        <span>FULL-STACK WEB</span><b>✦</b>
+        <span>PYTHON</span><b>✦</b>
+        <span>SQL &amp; POWER BI</span><b>✦</b>
+        <span>AI / ML</span><b>✦</b>
+        <span>SOFTWARE DEVELOPMENT</span><b>✦</b>
+        <span>FULL-STACK WEB</span><b>✦</b>
+        <span>PYTHON</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="about-grid">
+        <div>
+          <h2>Curious mind.<br><span>Practical builder.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">I enjoy turning ideas into useful, clean and functional software.</p>
+          <p>I'm a B.Sc. Computer Science graduate currently pursuing MCA at Jamal Mohamed College, Tiruchirappalli. My hands-on work spans web applications, management systems, e-commerce concepts, databases, analytics and blockchain-based ideas.</p>
+          <p>Beyond coding, I enjoy technical events, coordination, communication and sharing computer knowledge with students.</p>
+          <div class="about-stats">
+            <div><strong>10+</strong><span>Projects</span></div>
+            <div><strong>50+</strong><span>Certifications / Events</span></div>
+            <div><strong>2026</strong><span>Best Student Award</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-head">
+        <div class="section-label">02 / TOOLKIT</div>
+        <h2>Things I work <span>with.</span></h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card yellow"><span class="num">01</span><h3>Programming</h3><p>C · C++ · Java · Python</p><div class="mini-code">if (idea) { build(); }</div></article>
+        <article class="skill-card blue"><span class="num">02</span><h3>Web Development</h3><p>HTML · CSS · JavaScript · Full Stack</p><div class="mini-code">&lt;build /&gt;</div></article>
+        <article class="skill-card pink"><span class="num">03</span><h3>Data &amp; Analytics</h3><p>SQL · Power BI</p><div class="mini-code">SELECT * FROM ideas;</div></article>
+        <article class="skill-card green"><span class="num">04</span><h3>Tools &amp; Strengths</h3><p>MS Office · Communication · Problem Solving</p><div class="mini-code">solve → learn → ship</div></article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-head project-head">
+        <div>
+          <div class="section-label">03 / SELECTED WORK</div>
+          <h2>Projects with a <span>purpose.</span></h2>
+        </div>
+        <p>Academic and personal builds that helped me learn by making.</p>
+      </div>
+      <div class="project-list">
+        <article class="project-row">
+          <div class="project-num">01</div><div><h3>Online POS System</h3><p>Web application focused on point-of-sale workflows.</p></div><span class="project-tag">WEB APP</span>
+        </article>
+        <article class="project-row">
+          <div class="project-num">02</div><div><h3>RTO Management System</h3><p>TN Government cloud-based management system concept.</p></div><span class="project-tag">CLOUD</span>
+        </article>
+        <article class="project-row">
+          <div class="project-num">03</div><div><h3>Jewellery Management Website</h3><p>Management-oriented web project for jewellery workflows.</p></div><span class="project-tag">WEB</span>
+        </article>
+        <article class="project-row">
+          <div class="project-num">04</div><div><h3>Pet Care Management System</h3><p>Digital management concept for pet-care operations.</p></div><span class="project-tag">SYSTEM</span>
+        </article>
+        <article class="project-row">
+          <div class="project-num">05</div><div><h3>E-Commerce Website</h3><p>Online shopping application concept and interface.</p></div><span class="project-tag">E-COMMERCE</span>
+        </article>
+        <article class="project-row">
+          <div class="project-num">06</div><div><h3>Tax Profiling using Blockchain</h3><p>Project exploring blockchain-based tax profiling concepts.</p></div><span class="project-tag">BLOCKCHAIN</span>
+        </article>
+        <article class="project-row">
+          <div class="project-num">07</div><div><h3>Islamic Website</h3><p>Content-focused website project for Islamic information.</p></div><span class="project-tag">CONTENT</span>
+        </article>
+        <article class="project-row">
+          <div class="project-num">08</div><div><h3>Watch Management System</h3><p>Management-oriented web project.</p></div><span class="project-tag">SYSTEM</span>
+        </article>
+        <article class="project-row">
+          <div class="project-num">09</div><div><h3>Restaurant Management System</h3><p>Application concept for restaurant workflows.</p></div><span class="project-tag">MANAGEMENT</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="journey section" id="education">
+      <div class="section-label">04 / JOURNEY</div>
+      <div class="journey-grid">
+        <div><h2>Learning is<br><span>the long game.</span></h2></div>
+        <div class="timeline">
+          <div class="timeline-item active"><span>NOW</span><div><h3>Master of Computer Applications (MCA)</h3><p>Jamal Mohamed College, Tiruchirappalli · Currently Pursuing</p></div></div>
+          <div class="timeline-item"><span>COMPLETED</span><div><h3>B.Sc. Computer Science</h3><p>Mazharul Uloom College, Ambur · CGPA 8.62 · 83.45%</p></div></div>
+          <div class="timeline-item"><span>TRAINING</span><div><h3>AI &amp; ML · Power BI &amp; SQL · Full Stack</h3><p>Besant Technologies and SIIT Technologies</p></div></div>
+          <div class="timeline-item"><span>LEADERSHIP</span><div><h3>MUC Techno 2K25</h3><p>Student Coordinator for a state-level technical event</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recognition section">
+      <div class="recognition-card">
+        <div class="award-star">✦</div>
+        <div><div class="section-label">05 / RECOGNITION</div><h2>Best Student Award <span>2026</span></h2><p>Recognized for academic excellence, alongside a Best Project Award for outstanding project development.</p></div>
+        <div class="award-year">2026</div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-card">
+        <div class="section-label">06 / CONTACT</div>
+        <h2>Have an idea?<br><span>Let's build it.</span></h2>
+        <p>Open to internships, entry-level software opportunities, collaborations and interesting technical projects.</p>
+        <a class="big-mail" href="mailto:kamranraiyu@gmail.com">kamranraiyu@gmail.com <span>↗</span></a>
+        <div class="contact-meta"><span>7603955668</span><span>Ambur, Tamil Nadu, India</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="brand"><span>K</span>amran<span class="dot">.</span></div><p>Designed &amp; built with HTML · CSS · JavaScript</p><span>© 2026</span></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
